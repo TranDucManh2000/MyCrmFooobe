@@ -1,0 +1,33 @@
+body{
+    font-family: 'Pacifico', cursive;
+    min-height: 100vh;
+    background-image: linear-gradient(to right,rgb(31, 30, 80),rgb(41, 6, 138),rgb(31, 121, 223)); 
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.tabletop{
+    margin-top: 10px;
+    width: 96%;
+    margin-left: 2%;
+    border-radius: 10px;
+    margin-bottom: 100px;
+    .ant-table-pagination-right {
+        justify-content: center;
+    }
+}
+.tailetable{
+    margin-top: 100px;
+    color: #fff;
+    margin-left: 2%;
+}
+// button{
+//     cursor: pointer;
+// }
+// .texts14{
+//     font-size: 14px;
+// }
+// .curpoi{
+//     cursor:'pointer'
+// }
