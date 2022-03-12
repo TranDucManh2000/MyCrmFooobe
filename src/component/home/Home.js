@@ -4,6 +4,7 @@ import Footerr from '../common/Footerr'
 import NavMenus from '../common/NavMenus'
 
 const Home = () => {
+  
   return (
     <>
       <NavMenus/>

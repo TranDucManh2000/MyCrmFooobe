@@ -14,6 +14,10 @@ import Navmenutow from '../menu/Navmenutow';
 
 const NavMenus = () => {
   const dispatch = useDispatch();
+  const outxx = ()=>{
+    sessionStorage.removeItem("Token")
+    console.log('removetoken');
+  }
   return (
     <div className='bodynav'>
     <div className='nav'>
@@ -27,7 +31,7 @@ const NavMenus = () => {
           <SearchOutlined />
         </button>
         <input placeholder='Tìm Kiếm...' className='inputav'></input>
-        <span style={{cursor:'pointer'}}><UserOutlined/><a href='/login'> Đăng Xuất</a></span>
+        <span style={{cursor:'pointer'}}><UserOutlined/><a onClick={outxx} href='/login'> Đăng Xuất</a></span>
         <span style={{cursor:'pointer'}}><Navmenutow/></span>
         <span style={{cursor:'pointer'}}><SettingFilled /></span>
         <span style={{cursor:'pointer'}}><BellFilled /></span>
